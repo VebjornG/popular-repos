@@ -3,16 +3,15 @@
 
 This project is a simple React application that fetches the most popular JavaScript repositories on GitHub and displays them in a table.
 
-#### Available Scripts
+### Getting Started
 
-Clone the repository and install the dependencies using the following commands:
+Clone the repository:
 
 ```bash
 git clone https://github.com/VebjornG/popular-repos.git
-cd popular-repos
 ```
 
-#### Prerequisites
+### Prerequisites
 
 This project uses **Yarn** as the package manager. If you don't have Yarn installed, you can install it globally with:
 
@@ -27,7 +26,7 @@ nvm install 16
 nvm use 16
 ```
 
-#### Installing Dependencies and Running the Application
+### Installing Dependencies and Running the Application
 
 In the project directory, install the dependencies with:
 
