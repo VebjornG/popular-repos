@@ -32,9 +32,15 @@ export const RepositoryTable = () => {
   }, []);
 
   // Pagination logic
-  const indexOfLastRepo = currentPage * itemsPerPage; // Index of the last item on the current page
-  const indexOfFirstRepo = indexOfLastRepo - itemsPerPage; // Index of the first item on the current page
-  const currentRepos = repos?.items.slice(indexOfFirstRepo, indexOfLastRepo); // Get current page of items by slicing the array of repositories
+
+  // Index of the last item on the current page
+  const indexOfLastRepo = currentPage * itemsPerPage;
+
+  // Index of the first item on the current page
+  const indexOfFirstRepo = indexOfLastRepo - itemsPerPage;
+
+  // Get current page of items by slicing the array of repositories
+  const currentRepos = repos?.items.slice(indexOfFirstRepo, indexOfLastRepo);
 
   const onPageChange = (page: number) => {
     setCurrentPage(page);
