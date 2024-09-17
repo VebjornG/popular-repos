@@ -1,43 +1,44 @@
-# Most popular JavaScript Repositories on GitHub
+
+# Most Popular JavaScript Repositories on GitHub
+
 This project is a simple React application that fetches the most popular JavaScript repositories on GitHub and displays them in a table.
 
-## Available Scripts
+#### Available Scripts
 
-Clone the repository and install the dependencies using the following command:
+Clone the repository and install the dependencies using the following commands:
 
-### `git clone https://github.com/VebjornG/popular-repos.git`
+```bash
+git clone https://github.com/VebjornG/popular-repos.git
+cd popular-repos
+```
 
-### Prerequisites
+#### Prerequisites
 
-This project uses yarn as the package manager. If you don't have yarn installed, you can install it using the following command:
+This project uses **Yarn** as the package manager. If you don't have Yarn installed, you can install it globally with:
 
-### `npm install --global yarn`
+```bash
+npm install --global yarn
+```
 
-and uses Node.js version 16 or higher. You can install and manage Node versions using nvm:
+It also requires **Node.js version 16 or higher**. You can install and manage Node versions using **nvm**:
 
-### `nvm install 16`
+```bash
+nvm install 16
+nvm use 16
+```
 
-and then activated using the command:
+#### Installing Dependencies and Running the Application
 
-### `nvm use 16`
+In the project directory, install the dependencies with:
 
-### Installing dependencies and running the application
+```bash
+yarn
+```
 
-You can install the dependencies by running ´´´yarn´´´ in the project directory:
+To start the application in development mode:
 
-### `yarn`
+```bash
+yarn start
+```
 
-In the project directory, you can run the app with:
-
-### `yarn start`
-
-This runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will run the app on `http://localhost:3000`. The page will automatically reload if you make edits.
