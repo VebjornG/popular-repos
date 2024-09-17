@@ -12,7 +12,7 @@ export const Pagination = ({
   currentPage, 
   totalItems, 
   itemsPerPage, 
-  onPageChange 
+  onPageChange,
 }: PaginationProps) => {
 
   // Calculate the total number of pages with Math.ceil() 
