@@ -11,19 +11,25 @@ Clone the repository:
 git clone https://github.com/VebjornG/popular-repos.git
 ```
 
-### Prerequisites
-
-This project uses **Yarn** as the package manager. If you don't have Yarn installed, you can install it globally with:
+and navigate to the project directory:
 
 ```bash
-npm install --global yarn
+cd popular-repos
 ```
 
-It also requires **Node.js version 16 or higher**. You can install and manage Node versions using **nvm**:
+### Prerequisites
+
+This project requires **Node.js version 16 or higher**. You can install and manage Node versions using **nvm**:
 
 ```bash
 nvm install 16
 nvm use 16
+```
+
+It also uses **Yarn** as the package manager. If you don't have Yarn installed, you can install it globally with:
+
+```bash
+npm install --global yarn
 ```
 
 ### Installing Dependencies and Running the Application
