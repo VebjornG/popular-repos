@@ -5,13 +5,33 @@ This project is a simple React application that fetches the most popular JavaScr
 
 Clone the repository and install the dependencies using the following command:
 
-### `yarn install`
+### `git clone https://github.com/VebjornG/popular-repos.git`
 
-In the project directory, you can run:
+### Prerequisites
+
+This project uses yarn as the package manager. If you don't have yarn installed, you can install it using the following command:
+
+### `npm install --global yarn`
+
+and uses Node.js version 16 or higher. You can install and manage Node versions using nvm:
+
+### `nvm install 16`
+
+and then activated using the command:
+
+### `nvm use 16`
+
+### Installing dependencies and running the application
+
+You can install the dependencies by running ´´´yarn´´´ in the project directory:
+
+### `yarn`
+
+In the project directory, you can run the app with:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
+This runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
