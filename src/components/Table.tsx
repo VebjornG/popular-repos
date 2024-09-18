@@ -52,7 +52,7 @@ export const RepositoryTable = () => {
       dataIndex: 'name',
       key: 'name',
       render: (text: string, record: Repository) => (
-        <a href={record.html_url} target="_blank" rel="noopener noreferrer">
+        <a href={record.html_url} target="_blank">
           {text}
         </a>
       ),
@@ -83,7 +83,7 @@ export const RepositoryTable = () => {
       dataIndex: ['owner', 'login'],
       key: 'owner',
       render: (text: string, record: Repository) => (
-        <a href={record.owner.html_url} target="_blank" rel="noopener noreferrer">
+        <a href={record.owner.html_url} target="_blank">
           {text}
         </a>
       ),
